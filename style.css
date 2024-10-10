@@ -1,0 +1,77 @@
+.homepage{
+    background-image: 
+    linear-gradient(#47474480, rgba(0, 0, 0, 0.5)), 
+                      url('backgroung.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /* Remove default margin */
+}
+
+.header {
+    background-color: #969420c0;
+    padding: 5px 20px; /* Reduced vertical padding */
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between;
+}
+
+.logo {
+    color: aliceblue;
+    font-size: 1.2em; /* Adjust logo size */
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem; /* Reduced gap between links */
+    list-style-type: none;
+    color: aliceblue;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-links li a {
+    color: aliceblue; /* Ensure text color is correct */
+}
+
+.content {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 22%; /* Space from the top */
+}
+
+h1 {
+    text-shadow: 4px 4px 0px rgba(2, 0, 0, 0.959);
+}
+
+p {
+    text-shadow: 3px 3px 4px rgba(2, 0, 0, 0.959);
+}
+
+.button-container {
+    margin-top: 20px; /* Space above buttons */
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px; /* Space around buttons */
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #969420c0;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+/* .contact-page{
+    background-image: url('backgroung.jpg');
+} */
+
+.intro{
+    padding-left: 30px;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
